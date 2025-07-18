@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hero Section</title>
+  <link rel="stylesheet" href="hero.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  
+  <!-- Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <div class="logo" onclick="scrollToSection('home')">DHEENADHAYALAN S</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about11.html">About</a>
+        <a href="skill1.html">Skills</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        
+        <div class="profile-pic">
+          <img src="images/dheena1.jpg" 
+               alt="Alex Chen - Full Stack Developer" />
+        </div>
+
+        <h1>Hi, I'm <span class="gradient-text">DHEENADHAYALAN S</span></h1>
+        <p class="subtitle">Final Year B.Tech IT Student & Aspiring Full Stack Developer</p>
+        <p class="description">
+          Passionate about creating beautiful, functional web applications using modern technologies.
+          Ready to launch my career in full stack development.
+        </p>
+
+        <div class="hero-buttons">
+          <button onclick="scrollToSection('projects')" class="btn primary">View My Work ➜</button>
+          <button onclick="scrollToSection('contact')" class="btn outline">Get In Touch ✉️</button>
+        </div>
+
+        <div class="hero-socials">
+          <div class="hero-socials">
+          <div class="social-links">
+            <a href="https://github.com/DHEENADHAYALAN07" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="24" />
+            </a>
+            <a href="https://www.linkedin.com/in/dheena12s/" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="24" />
+            </a>
+            <a href="https://www.instagram.com/_.dheenaa.__/" target="_blank">
+              <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="24" />
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="hero.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects </title>
+  <link rel="stylesheet" href="project.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <div class="logo" onclick="scrollToSection('home')">DHEENADHAYALAN S</div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about11.html">About</a>
+        <a href="skill1.html">Skills</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <p>A selection of my recent projects showcasing diverse skills and technologies.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project Card (repeat for each project) -->
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(images/m2f\ -\ image.webp);"></div>
+          <div class="project-content">
+            <h3>M2F-SHOP - HOME SERVICES PLATFORM</h3>
+            <p> Developed a web-based platform called Make to Fix (M2F) aimed at providing on demand home services through experienced and verified professionals.</p>
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>REACT</span><span>JAVASCRIPT</span>
+            </div>
+            <div class="project-links">
+              <a href="#https://github.com/alexchen/ecoshop" target="_blank">💻 Code</a>
+              <a href=https://m2f.shop/ target="_blank">🚀 Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(images/iot-project.jpg);"></div>
+          <div class="project-content">
+            <h3>INTERNET OF THINGS - HARDWARE PROJECT
+
+            </h3>
+            <p> Basic Electric Vehicle (EV) Monitoring and Operation Testing System.</p>
+
+            <div class="tech-tags">
+              <span>It show the percentage of the battery 
+              </span><span>It will indicates the current power in the battery</span>
+              <span>It will send the alert notification to the user </span>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="project-card">
+          <div class="project-image" style="background-image: url(images/customer-project.jpg);"></div>
+          <div class="project-content">
+            <h3>CRM - CUSTOMER RELATIONSHIP MANAGEMENT</h3>
+            <p>The Customer Relationship Management (CRM) system is designed to store, manage, and track
+            customer data. Developed a user-friendly desktop application using Tkinter to manage customer information (add, update, view, delete).</p>
+
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>SQL</span>
+              <span>Tkinter</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/DHEENADHAYALAN07/CRM-CUSTOMER-RELATIONSHIP-MANAGEMENT/blob/main/CRM.py" target="_blank">💻 Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more projects below in the same format -->
+
+      </div>
+
+      <div class="view-more">
+        <button onclick="window.open('https://github.com/DHEENADHAYALAN07?tab=repositories', '_blank')">View All Projects on GitHub 🐙</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="project.js"></script>
+</body>
+</html>
