@@ -12,16 +12,22 @@
   <!-- Header -->
   <header class="site-header">
     <div class="nav-container">
-      <div class="logo">DHEENADHAYALAN S</div>
-      <nav class="nav-links">
+      <div class="logo" onclick="scrollToSection('home')">DHEENADHAYALAN S</div>
+      <!-- Hamburger (visible on mobile only) -->
+       <div class="hamburger" onclick="toggleMenu()">
+        ☰
+      </div>
+
+      <!-- Normal navigation (visible on desktop only) -->
+      <nav class="nav-links" id="navLinks">
         <a href="index.html">Home</a>
         <a href="about11.html">About</a>
         <a href="skill1.html">Skills</a>
         <a href="project.html">Projects</a>
         <a href="contact.html">Contact</a>
       </nav>
-    </div>
-  </header>
+   </div>
+ </header>
 
   <!-- Internship Section -->
   <section id="internships" class="internship-section">
@@ -64,6 +70,13 @@
       </div>
     </div>
   </section>
+
+  <script>
+  function toggleMenu() {
+    const nav = document.getElementById("navLinks");
+    nav.classList.toggle("show");
+  }
+  </script>
 
 </body>
 </html>
